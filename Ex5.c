@@ -14,19 +14,19 @@ printf("Digite a idade: ");
 scanf("%i",&idade);
 
 if (idade >= 5 && idade <= 7){
-    printf("Classificação: Infantil A\n");
+    printf("ClassificaÃ§Ã£o: Infantil A\n");
 }
 if (idade >= 8 && idade <= 10){
-    printf("Classificação: Infantil B\n");
+    printf("ClassificaÃ§Ã£o: Infantil B\n");
 }
 if (idade >= 11 && idade <= 13){
-    printf("Classificação: Juvenil	A\n");
+    printf("ClassificaÃ§Ã£o: Juvenil A\n");
 }
 if (idade >= 14 && idade <= 17){
-    printf("Classificação: Juvenil	B\n");
+    printf("ClassificaÃ§Ã£o: Juvenil B\n");
 }
 if (idade >= 18){
-    printf("Classificação: Adulto\n");
+    printf("ClassificaÃ§Ã£o: Adulto\n");
 }
 
 return 0;

@@ -3,8 +3,8 @@
 #include <math.h>
 #include <string.h>
 #include <locale.h>
-/*Escreva um algoritmo para ler as dimensıes de um ret‚ngulo (base e altura), calcular
-e escrever a ·rea do ret‚ngulo*/
+/*Escreva um algoritmo para ler as dimens√µes de um ret√¢ngulo (base e altura), calcular
+e escrever a √°rea do ret√¢ngulo*/
 
 int main()
     {setlocale(LC_ALL, "Portuguese_Brazil");
@@ -17,9 +17,9 @@ int main()
     printf("Digite o valor da altura: ");
     scanf("%d", &h);
 
-    area = b*h;
+    area = b * h;
 
-    printf("O valor da ·rea È: %d", area);
+    printf("O valor da √°rea √©: %d", area);
 
 return 0;
 }
